@@ -53,4 +53,5 @@ button {
     font-size: 14px;
     padding: 10px 20px;
     border: none;
+    border-radius: 8px;
 }
