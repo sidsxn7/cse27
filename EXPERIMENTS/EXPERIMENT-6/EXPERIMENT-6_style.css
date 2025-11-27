@@ -61,3 +61,7 @@ button:hover {
     background-color: darkblue;
 
 }
+
+h6 {
+    text-align: end;
+}
