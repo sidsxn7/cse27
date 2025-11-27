@@ -26,3 +26,10 @@ body {
     height: auto;
     border-radius: 5px;
 }
+
+.product-box h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
