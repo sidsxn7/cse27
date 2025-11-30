@@ -42,3 +42,8 @@ h3 {
 .green {
   background-color: #e74c3c;
 }
+
+.para {
+  background-color: #eee;
+  padding: 10px;
+}
