@@ -8,3 +8,10 @@ height: 100vh;
 display: flex;
 flex: 1;
 }
+
+header, footer {
+background: #2196f3;
+color: white;
+text-align: center;
+padding: 10px;
+}
