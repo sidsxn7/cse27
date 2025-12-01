@@ -6,58 +6,60 @@
     <title>Document</title>
 </head>
 <body>
-    <!--heading-->
-    <h2>Hotel Room Booking Form</h2>
-    <!--making form-->
-    <form action="#" method="post" border="1" style="font-size: larger;">
-        <!--add name-->
-        <label for="name">Full Name:</label>
+    <fieldset>
+        <!--heading-->
+        <h2>Hotel Room Booking Form</h2>
+        <!--making form-->
+        <form action="#" method="post" border="1" style="font-size: larger;">
+            <!--add name-->
+            <label for="name">Full Name:</label>
             <!--input name-->
             <input type="text" id="name" name="name" required>
-        <br><br>
-        <!--add email-->
-        <label for="email">Email:</label>
+            <br><br>
+            <!--add email-->
+            <label for="email">Email:</label>
             <!--input email-->
             <input type="email" id="email" name="email" required>
-        <br><br>
-        <!--add phone number-->
-        <label for="phone">Phone:</label>
+            <br><br>
+            <!--add phone number-->
+            <label for="phone">Phone:</label>
             <!--input phone number-->
             <input type="tel" id="phone" name="phone" required>
-        <br><br>
-        <!--add checkin date-->
-        <label for="checkin">Check-in Date:</label>
+            <br><br>
+            <!--add checkin date-->
+            <label for="checkin">Check-in Date:</label>
             <!--select checkin date-->
             <input type="date" id="checkin" name="checkin" required>
-        <br><br>
-        <!--add checkout date-->
-        <label for="checkout">Check-out Date:</label>
+            <br><br>
+            <!--add checkout date-->
+            <label for="checkout">Check-out Date:</label>
             <!--select checkout date-->
             <input type="date" id="checkout" name="checkin" required>
-        <br><br>
-        <!--add room type-->
-        <label for="room">Room Type:</label>
+            <br><br>
+            <!--add room type-->
+            <label for="room">Room Type:</label>
             <!--select room type-->
             <select name="room" id="room" required>
                 <option>Single Room</option>
                 <option>Double Room</option>
                 <option>Suite</option>
             </select>
-        <br><br>
-        <!--add number of guests-->
-        <label for="guest">Number of Guests:</label>
+            <br><br>
+            <!--add number of guests-->
+            <label for="guest">Number of Guests:</label>
             <!--select number of guests-->
             <input type="number" id="guest" name="guest" min="1" max="10" required>
-        <br><br>
-        <!--add special requests-->
-        <label for="request">Special Requests:</label>
+            <br><br>
+            <!--add special requests-->
+            <label for="request">Special Requests:</label>
             <!--write special requests-->
             <textarea name="request" id="request" rows="5" cols="50"></textarea>
-        <br><br>
-        <!--add book now button-->
-        <button type="submit">Book Now</button>
-        <!--add reset form button-->
-        <button type="reset">Reset Form</button>
-    </form>
+            <br><br>
+            <!--add book now button-->
+            <button type="submit">Book Now</button>
+            <!--add reset form button-->
+            <button type="reset">Reset Form</button>
+        </form>
+    </fieldset>
 </body>
 </html>
