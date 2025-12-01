@@ -20,3 +20,9 @@ aside {
 background: lightgray;
 width: 30%;
 padding: 10px;}
+
+main {
+background: #e3f2fd;
+flex: 1;
+padding: 10px;
+}
