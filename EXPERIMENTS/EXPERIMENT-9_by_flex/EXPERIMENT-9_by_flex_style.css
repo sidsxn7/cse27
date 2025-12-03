@@ -10,3 +10,10 @@ body {
     font-size: 32px;
     font-weight: bold;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
