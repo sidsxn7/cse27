@@ -55,3 +55,8 @@ button {
     padding: 10px 20px;
     border-radius: 6px;
 }
+
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
