@@ -39,3 +39,28 @@
     text-decoration: none;
     font-weight: bold;
 }
+
+/*mobile phone*/
+@media (max-width: 780px){
+    .navlink{
+        display: none;
+    }
+
+    .actions a{
+        font-size: .9rem;
+    }
+}
+
+/*tablet*/
+@media (min-width: 769px) and (ma-width:1024px){
+    .navlink a{
+        font-size: .9rem;
+    }
+}
+
+/*desktop*/
+@media (min-width: 1025px){
+    .navlink a{
+        font-size: 1rem;
+    }
+}
