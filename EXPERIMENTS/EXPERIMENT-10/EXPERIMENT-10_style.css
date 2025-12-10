@@ -17,3 +17,18 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.navlink{
+    list-style: none;
+    display: flex;
+}
+
+.navlink li{
+    margin: 0 15px;
+}
+
+.navlink a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
